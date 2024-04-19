@@ -1,0 +1,166 @@
+body {
+   width: 1200px;
+   margin: 0 auto;
+}
+
+header {
+   padding: 20px;
+}
+
+header div#header-first {
+   display: flex;
+   justify-content: space-between;
+}
+
+header div#header-first i {
+   font-size: 30px;
+   color: rgb(107, 107, 107);
+}
+
+header div#header-first i.fa-regular.fa-circle,
+header div#header-first i.fa-regular.fa-bell {
+   margin-left: 20px;
+}
+
+
+header div#header-second {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+header div#header-second-main {
+   display: flex;
+   border: 1px solid green;
+   border-radius: 40px;
+   width: 70%;
+   padding-left: 30px;
+   padding-right: 20px;
+   align-items: center;
+}
+
+header div#header-second-main input {
+   border: none;
+   outline: none;
+   width: 85%;
+   height: 50px;
+   font-size: 20px;
+   font-weight: bold;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+header div#header-second-main i {
+   font-size: 30px;
+}
+
+
+header div#header-second-main i.fa-solid.fa-caret-down,
+header div#header-second-main i.fa-regular.fa-keyboard {
+   color: gray;
+   font-size: 20px;
+}
+
+header div#header-second-main i.fa-solid.fa-caret-down {
+   color: gray;
+   font-size: 16px;
+   margin-left: 10px;
+   margin-right: 15px;
+}
+
+header div#header-second-main i.fa-solid.fa-magnifying-glass {
+   color: green;
+   font-size: 20px;
+}
+
+header div#header-second-main a {
+   color: green;
+   text-decoration: none;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+nav ul {
+   margin-top: 20px;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-right: 15%;
+}
+
+nav ul li {
+   margin-left: 15px;
+   text-align: center;
+   align-items: center;
+}
+
+nav ul li i {
+   padding-top: 10px;
+   color: green;
+   font-size: 35px;
+   border: 1px solid rgb(185, 185, 185);
+   width: 60px;
+   height: 45px;
+   border-radius: 30%;
+   margin-bottom: 8px;
+}
+
+nav ul li i.fa-solid.fa-ellipsis {
+   color: gray;
+}
+
+main {
+   display: flex;
+}
+
+main section {
+   width: 70%;
+}
+
+main aside {
+   width: 30%;
+}
+
+section article#img img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+section article#news {
+   width: 100%;
+   border: 1px solid rgb(185, 185, 185);
+   border-radius: 10px;
+   margin-top: 10px;
+   padding: 10px;
+}
+
+section article#news div#new-first {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+section article#news div#new-first img {
+   width: 135px;
+   height: 20px;
+}
+
+section article#news ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+section article#news ul li {
+   color: rgb(179, 179, 179);
+}
+
+section article#news ul li#selected {
+   color: rgb(0, 0, 0);
+}

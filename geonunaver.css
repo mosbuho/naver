@@ -745,11 +745,42 @@ aside div.widget div.widget-main-second div.papago button {
 }
 
 aside div.widget div.widget-main-second div.engword {
-   padding: 0;
-   padding-top: 15px;
-   width: 154px;
-   height: 165px;
    position: relative;
+   padding-top: 15px;
+   border: none;
+   background-color: #f4f6fa;
+   margin-right: 10px;
+}
+
+
+aside div.widget div.widget-main-second div.engword,
+aside div.widget div.widget-main-second div.engword div.engword-inner-1,
+aside div.widget div.widget-main-second div.engword div.engword-inner-2,
+aside div.widget div.widget-main-second div.engword div.engword-inner-3 {
+   padding: 0;
+   width: 146px;
+   height: 165px;
+}
+
+aside div.widget div.widget-main-second div.engword div.engword-inner-1,
+aside div.widget div.widget-main-second div.engword div.engword-inner-2,
+aside div.widget div.widget-main-second div.engword div.engword-inner-3 {
+   position: absolute;
+   padding-top: 15px;
+}
+
+aside div.widget div.widget-main-second div.engword div.engword-inner-1 {
+   z-index: 3;
+}
+
+aside div.widget div.widget-main-second div.engword div.engword-inner-2 {
+   z-index: 2;
+   left: 5px;
+}
+
+aside div.widget div.widget-main-second div.engword div.engword-inner-3 {
+   z-index: 1;
+   left: 10px;
 }
 
 aside div.widget div.widget-main-second div.engword b,
